@@ -45,6 +45,6 @@ while(found) {
     }
 }
 
-fs.writeFileSync(filename.replace('.js','_refectored')+'.js', newcode);
+fs.writeFileSync(filename.replace('.js','_refactored')+'.js', newcode);
 
 
